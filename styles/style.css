@@ -17,6 +17,7 @@
   justify-content: flex-start;
   align-items:center;
   background-color: #f2f2f2;
+  position: relative;
   /* выше установили ограничения для секции */
 }
 
@@ -204,7 +205,7 @@ font-weight: normal;
   background-color: #1f1f1f;
 }
 .kaufman__triangle{
-  
+
 }
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
