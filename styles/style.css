@@ -90,7 +90,7 @@ left: 0;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  margin: 100px auto;
+  margin: 100px auto 0;
   width: 80%;
 }
 .two-columns__brief{
@@ -211,10 +211,10 @@ color: #2f80ed;
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow: hidden;
 }
 .kaufman__triangle{
   position: absolute;
-  overflow: hidden;
   width: 877px;
   height: 877px;
   right: -210px;
@@ -265,56 +265,65 @@ font-weight: normal;
 .footer{
   display: flex;
   flex-direction: row;
-  border: springgreen solid 2px;
   background-color: #1f1f1f;
   min-height: 350px;
   color: white;
-  z-index: 3;
 }
 .footer__columns{
   display: flex;
-  justify-content: space-between;
-  width: 90%;
-  margin 60px auto 40px auto;
-  border: springgreen solid 2px;
-}
+  justify-content: space-around;
+  width: 90%; 
+  margin: 60px auto 40px;
+ }
 .footer__column{
   display: flex;
-  border: springgreen solid 2px;
   flex-direction: column;
   justify-content: space-between;
+  flex-basis: 711px;
 }
-.footer__column_content_copyright{
-flex-basis: 711px;
-border: springgreen solid 2px;
+.footer__column_important-info{
+display: flex;
+width: 50%;
+align-items: flex-start;
+justify-content: space-around;
 }
 .footer__column_content_info{
-  border: springgreen solid 2px;
+  margin: 0 auto;
+}
+.footer__column_content_social{
+  padding: 0;
+  margin: 0;
 }
 .footer__column_heading{
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
-  border: springgreen solid 2px;
+  margin: 0;  
+  white-space: nowrap;
+  list-style-type: none;
 }
 .footer__column_links{
 margin-top: 20px;
 margin-bottom: 16px;
-border: springgreen solid 2px;
+padding: 0;
 }
 .footer__column_link{
-  border: springgreen solid 2px;
-  margin: 0 auto;
+  margin: 0;
+  padding: 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
+  list-style-type: none;
 }
-.footer__column_content_social{
-
+.footer__column_link a{
+  color:  white;
+  text-decoration: none;
 }
 .footer__social-icon{
-display: flex;
-flex-direction: column;
+height: 16px;
+width: 16px;
+margin-right: 10px;;
+list-style-type: none;
 }
 .footer_author{
   margin: 18px 0;
