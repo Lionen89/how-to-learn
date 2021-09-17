@@ -200,7 +200,7 @@
 
 .feynman__title {
   width: 648px;
-  margin: 0 auto ;
+  margin: 0 auto;
   text-align: center;
   line-height: 1.15;
   font-size: 120px;
@@ -354,6 +354,7 @@
   text-decoration: none;
   display: block;
 }
+
 .footer__social-icon {
   height: 16px;
   width: 16px;
