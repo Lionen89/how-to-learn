@@ -68,10 +68,6 @@
 }
 
 .logo {
-  background-image: url(../images/logo_place_header.svg), url(../images/logo_place_footer.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
   width: 183px;
   height: 32px;
 }
