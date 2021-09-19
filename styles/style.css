@@ -35,7 +35,7 @@
 .header__title {
   display: flex;
   width: 730px;
-  margin-left: 64px;
+  margin: auto 64px;
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
@@ -51,6 +51,7 @@
   font-size: 18px;
   font-weight: normal;
   z-index: 4;
+  margin: 0;
 }
 
 .header__link {
@@ -139,6 +140,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-bottom: 100px;
 }
 
 .section-title {
@@ -194,13 +196,12 @@
   background-position: left bottom;
   min-height: 890px;
   background-color: #f2f2f2;
-  margin: 100px 0 0;
-  padding-top: 100px;
 }
 
 .feynman__title {
   width: 648px;
   margin: 0 auto;
+  padding-top: 100px;
   text-align: center;
   line-height: 1.15;
   font-size: 120px;
