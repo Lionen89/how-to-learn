@@ -1,9 +1,8 @@
-.feynman {
-    position: relative;
-    background-image: url(../../images/feynman.png);
-    background-repeat: no-repeat;
-    background-size: 867px 637px;
-    background-position: left bottom;
-    min-height: 890px;
-    background-color: #f2f2f2;
-  }
+.cards__description{
+  margin: 16px 0 0; 
+  padding: 0;
+  text-align: center;
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: normal;
+}
