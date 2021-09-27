@@ -1,10 +1,16 @@
 .cards__item {
-margin-left: 100px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
 }
-.cards__item:first-child{
+
+.cards__item:first-child {
+  margin-left: 0;
+}
+
+.cards__item:nth-of-type(4n) {
   margin-left: 0;
 }
